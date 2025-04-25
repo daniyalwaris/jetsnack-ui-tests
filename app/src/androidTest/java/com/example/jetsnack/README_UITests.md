@@ -57,6 +57,7 @@ fun home_displaysNewlyAddedSection_onLaunch()
 ### 🐛 Dealing with Flaky Tests
 1. **Explicit Waiting Mechanisms**
 Replace fixed delays with conditional waits:
+
 Example
    // Wait for UI to settle after input.
    composeRule.waitUntil(10000) {
